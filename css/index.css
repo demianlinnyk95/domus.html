@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); 
+
+:root {
+    --main-color: black; 
+    --accent-color: rgb(131, 131, 131); 
+    font-family: 'Concert One', cursive;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+.logo-block {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo-block img {
+    padding: 10px;
+}
+
+header .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    font-family: 'Eagle Lake', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+header .menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu-items a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header .menu-items a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media (min-width: 769px) {
+    header .header-nav {
+        display: flex;
+    }
+
+    header .menu-items {
+        align-items: center;
+    }
+}
+
+header .header-banner {
+    background-image: url(../img/zviyani.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+header .header-banner h2 {
+    color: var(--accent-color);
+    font-family: 'Eagle Lake', cursive;
+    font-size: 3.5rem;
+}
+
+header .header-banner p {
+    color: var(--accent-color);
+    font-family: 'Eagle Lake', cursive;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+main .aboutus {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 5px;
+}
+
+@media (min-width:500px) {
+    .news {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+
+@media (min-width:660px) {
+    .actors {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
