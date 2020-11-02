@@ -88,13 +88,23 @@ header .header-banner p {
     justify-content: center;
 }
 
-
-
 a {
     text-decoration: none;
 }
 
 main .aboutus {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 5px;
+}
+
+.director {
+display: flex;
+grid-template-columns: 1fr 1fr;
+grid-gap: 5px;
+}
+
+.contactus {
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-gap: 5px;
