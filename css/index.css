@@ -31,10 +31,6 @@ body {
     padding: 5px;
 }
 
-.logo-block img {
-    padding: 10px;
-}
-
 header .header-nav {
     display: flex;
     align-items: center;
@@ -166,11 +162,10 @@ A:active {
     }
 }
 
-@media (min-width:660px) {
     .actors {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
+        
     }
 }
 
